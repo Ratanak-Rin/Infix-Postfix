@@ -51,7 +51,7 @@ public class Parser {
         Stack<LinkedBinaryTree<Node>> stack_tree = new StackByArray<LinkedBinaryTree<Node>>();
         Stack<Character> stack_oper = new StackByArray<Character>();
 
-        //TODO: - parseExpr will be similar to evalExpr function that evaluates
+        //      - parseExpr will be similar to evalExpr function that evaluates
         //        infix expressions.
         //      - Here, instead of using the operand stack, we push/pop subtrees of
         //        the parse tree to/from the tree stack.
@@ -104,7 +104,7 @@ public class Parser {
     public static double evalExpr(BinaryTree<Node> tree) {
         Stack<Double> num = new StackByArray<Double>();
         
-        //TODO: - evalExpr will be similar to evalPostfixExpr function that evaluates
+        //      - evalExpr will be similar to evalPostfixExpr function that evaluates
         //        postfix expressions.
         //      - While traversing the nodes of the parseTree in the post-order,
         //        evaluate the expression by pushing/popping operands to/from the stack num
